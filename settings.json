@@ -1,0 +1,52 @@
+{
+  "assetType": "video",
+  "modelSettings": {
+    "camera-controls": "on",
+    "auto-rotate": "on",
+    "exposure": "9.8",
+    "shadow-intensity": "0.9",
+    "scale": "1.18",
+    "position-x": "-0.04",
+    "position-y": "-0.43",
+    "position-z": "0",
+    "rotation-x": "0",
+    "rotation-y": "86",
+    "rotation-z": "17",
+    "light-position-x": "1",
+    "light-position-y": "1",
+    "light-position-z": "5"
+  },
+  "videoSettings": {
+    "video-scale": "1",
+    "video-position-x": "0",
+    "video-position-y": "0",
+    "video-position-z": "0",
+    "video-rotation-x": "0",
+    "video-rotation-y": "0",
+    "video-rotation-z": "0"
+  },
+  "animation": "",
+  "hotspots": [],
+  "models": [],
+  "videos": [
+    {
+      "fileName": "video_1.mp4",
+      "name": "Realidad aventura.mp4",
+      "settings": {
+        "scale": 1,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "videoFileName": "video_1.mp4",
+  "videoName": "Realidad aventura.mp4"
+}

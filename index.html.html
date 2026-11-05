@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiencia de Realidad Aumentada</title>
+</head>
+<body>
+    <div id="ra-free-root"></div>
+    <script>
+        window.RA_PROJECT = {
+        "runtime": "ra-free-runtime",
+        "version": 1,
+        "marker": "./marker.mind",
+        "paidViewerUrl": "https://realidad-aumentada.com.co/WebARStudioPro.html",
+        "lighting": {
+                "exposure": 9.8,
+                "directionalPosition": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 5
+                }
+        },
+        "models": [],
+        "videos": [
+                {
+                        "src": "./video_1.mp4",
+                        "name": "Realidad aventura.mp4",
+                        "scale": 1,
+                        "aspectRatio": 1.7777777777777777,
+                        "position": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                        },
+                        "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                        }
+                }
+        ]
+};
+    </script>
+    <script src="https://realidad-aumentada.com.co/WebARStudioPro-Free/visor-ar-free.js"></script>
+    <noscript>Activa JavaScript para ver esta experiencia de Realidad Aumentada.</noscript>
+</body>
+</html>
