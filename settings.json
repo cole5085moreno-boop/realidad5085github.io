@@ -1,17 +1,17 @@
 {
-  "assetType": "video",
+  "assetType": "model",
   "modelSettings": {
     "camera-controls": "on",
     "auto-rotate": "on",
     "exposure": "9.8",
     "shadow-intensity": "0.9",
-    "scale": "1.18",
-    "position-x": "-0.04",
-    "position-y": "-0.43",
+    "scale": "1.17",
+    "position-x": "0",
+    "position-y": "-0.81",
     "position-z": "0",
     "rotation-x": "0",
-    "rotation-y": "86",
-    "rotation-z": "17",
+    "rotation-y": "-6",
+    "rotation-z": "1",
     "light-position-x": "1",
     "light-position-y": "1",
     "light-position-z": "5"
@@ -25,28 +25,26 @@
     "video-rotation-y": "0",
     "video-rotation-z": "0"
   },
-  "animation": "",
+  "animation": "run",
   "hotspots": [],
-  "models": [],
-  "videos": [
+  "models": [
     {
-      "fileName": "video_1.mp4",
-      "name": "Realidad aventura.mp4",
+      "fileName": "model_1.glb",
+      "name": "alien-grey-rigged.glb",
       "settings": {
-        "scale": 1,
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
-        "rotation": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      }
+        "scale": "1.17",
+        "position-x": "0",
+        "position-y": "-0.81",
+        "position-z": "0",
+        "rotation-x": "0",
+        "rotation-y": "-6",
+        "rotation-z": "1"
+      },
+      "animation": "run",
+      "hotspots": []
     }
   ],
-  "videoFileName": "video_1.mp4",
-  "videoName": "Realidad aventura.mp4"
+  "videos": [],
+  "videoFileName": null,
+  "videoName": null
 }
