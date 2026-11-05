@@ -3,15 +3,15 @@
   "modelSettings": {
     "camera-controls": "on",
     "auto-rotate": "on",
-    "exposure": "9.8",
+    "exposure": "10",
     "shadow-intensity": "0.9",
-    "scale": "1.17",
-    "position-x": "0",
-    "position-y": "-0.81",
-    "position-z": "0",
-    "rotation-x": "0",
-    "rotation-y": "-6",
-    "rotation-z": "1",
+    "scale": "5",
+    "position-x": "-0.05",
+    "position-y": "-0.19",
+    "position-z": "0.99",
+    "rotation-x": "1",
+    "rotation-y": "44",
+    "rotation-z": "-6",
     "light-position-x": "1",
     "light-position-y": "1",
     "light-position-z": "5"
@@ -25,23 +25,87 @@
     "video-rotation-y": "0",
     "video-rotation-z": "0"
   },
-  "animation": "run",
-  "hotspots": [],
+  "animation": "",
+  "hotspots": [
+    {
+      "text": "Pez",
+      "surfacePosition": {
+        "x": -0.008520703601768933,
+        "y": 0.04769080598229813,
+        "z": 0.02985987079456768
+      },
+      "surfaceNormal": {
+        "x": -0.8021012202325346,
+        "y": 0.5656009529612704,
+        "z": 0.19164862251209155
+      },
+      "offset": {
+        "x": 0.17,
+        "y": -0.01,
+        "z": -0.13
+      },
+      "textOffset": {
+        "x": 0.13,
+        "y": -0.05,
+        "z": -0.17
+      },
+      "textRotation": {
+        "x": 18,
+        "y": -57,
+        "z": 0
+      },
+      "initialDistance": 0.05,
+      "textSize": 0.4,
+      "pointSize": 0.4
+    }
+  ],
   "models": [
     {
       "fileName": "model_1.glb",
-      "name": "alien-grey-rigged.glb",
+      "name": "low-poly-clownfish.glb",
       "settings": {
-        "scale": "1.17",
-        "position-x": "0",
-        "position-y": "-0.81",
-        "position-z": "0",
-        "rotation-x": "0",
-        "rotation-y": "-6",
-        "rotation-z": "1"
+        "scale": "5",
+        "position-x": "-0.05",
+        "position-y": "-0.19",
+        "position-z": "0.99",
+        "rotation-x": "1",
+        "rotation-y": "44",
+        "rotation-z": "-6"
       },
-      "animation": "run",
-      "hotspots": []
+      "animation": "",
+      "hotspots": [
+        {
+          "text": "Pez",
+          "surfacePosition": {
+            "x": -0.008520703601768933,
+            "y": 0.04769080598229813,
+            "z": 0.02985987079456768
+          },
+          "surfaceNormal": {
+            "x": -0.8021012202325346,
+            "y": 0.5656009529612704,
+            "z": 0.19164862251209155
+          },
+          "offset": {
+            "x": 0.17,
+            "y": -0.01,
+            "z": -0.13
+          },
+          "textOffset": {
+            "x": 0.13,
+            "y": -0.05,
+            "z": -0.17
+          },
+          "textRotation": {
+            "x": 18,
+            "y": -57,
+            "z": 0
+          },
+          "initialDistance": 0.05,
+          "textSize": 0.4,
+          "pointSize": 0.4
+        }
+      ]
     }
   ],
   "videos": [],
